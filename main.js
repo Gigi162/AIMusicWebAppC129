@@ -47,7 +47,6 @@ function draw() {
     fill("#FF69B4");
     stroke("FF69B4");
 
-    if(scoreLeftWrist > 0.1) {
         
         circle(leftWristX,leftWristY,20);
         InNumberleftWristY = Number(leftWristY);
@@ -55,7 +54,7 @@ function draw() {
         volume = remove_decimals/500;
         document.getElementById("volume").innerHTML = "volume = " + volume;
         song.setVolume(volume);
-    }
+    
 
 
 }
